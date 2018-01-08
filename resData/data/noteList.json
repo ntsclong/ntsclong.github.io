@@ -21,7 +21,7 @@
     {
       "id": 4,
       "caption": "HTTP详解",
-      "type": "css",
+      "type": "网络相关",
       "createtime": "2017-10-31",
       "updatetime": "2017-10-31",
       "intro": "摘要: 什么是HTTP协议 HTTP（HyperTextTransferProtocol）即超文本传输协议，目前网页传输的的通用协议。HTTP协议采用了请求/响应模型，浏览器或其他客户端发出请求，服务器给与响应。就整个网络资源传输而言，包括message-header和message-body两部分。首先传",

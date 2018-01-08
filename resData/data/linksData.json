@@ -6,6 +6,55 @@
         {
           "linkName": "司徒正美",
           "linkUrl": "http://www.cnblogs.com/rubylouvre/"
+        },
+        {
+          "linkName": "前端小武",
+          "linkUrl": "https://xuexb.com/"
+        },
+        {
+          "linkName": "ntscshen",
+          "linkUrl": "http://www.ntscshen.com/"
+        },
+        {
+          "linkName": "MapleMei",
+          "linkUrl": "https://blog.faysunshine.com/"
+        }
+      ]
+    },
+    {
+      "typeName": "社区",
+      "data": [
+        {
+          "linkName": "GitHub",
+          "linkUrl": "https://github.com/"
+        },
+        {
+          "linkName": "码云",
+          "linkUrl": "https://gitee.com/"
+        },
+        {
+          "linkName": "segmentfault",
+          "linkUrl": "https://segmentfault.com/"
+        },
+        {
+          "linkName": "博客园",
+          "linkUrl": "https://www.cnblogs.com/"
+        },
+        {
+          "linkName": "Fiy社区",
+          "linkUrl": "http://fly.layui.com/"
+        },
+        {
+          "linkName": "开源中国",
+          "linkUrl": "http://www.oschina.net/"
+        },
+        {
+          "linkName": "知乎",
+          "linkUrl": "https://www.zhihu.com/topics"
+        },
+        {
+          "linkName": "掘金",
+          "linkUrl": "https://juejin.im//"
         }
       ]
     }
