@@ -1,2 +1,2 @@
 我的主页
-访问地址：https://ntsclong.github.io
+访问地址：http://www.ntsclong.com
