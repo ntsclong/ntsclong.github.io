@@ -39,7 +39,7 @@
     {
       "id": 2,
       "caption": "ruby安装及webStorm配置SCSS",
-      "type": "css/SASS/SCSS",
+      "type": "webStorm",
       "createtime": "2017-10-17",
       "updatetime": "2017-10-17",
       "intro": "摘要: sass安装： 步骤：（window系统） 1、下载RubyInstaller(v2.4.3)，运行安装，基本直接next安装，不过有个add to PATH的选项一定要勾选，这样就不用配置环境变量。 2、在开始程序中找到Start Command Prompt with Ruby，如下图 v 3、",
