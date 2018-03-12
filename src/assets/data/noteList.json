@@ -1,6 +1,15 @@
 {
   "notes": [
     {
+      "id": 8,
+      "caption": "JavaScript 常用方法",
+      "type": "JavaScript",
+      "createtime": "2018-03-12",
+      "updatetime": "2018-03-12",
+      "intro": "摘要: 判断运行客户端 计算带中文的字符串长度（中文2字符） 时间格式化 文件大小格式化 cookie获取 javascript?linenums function getcookie(objname) { var arrstr = document.cookie.split('; '); for (var",
+      "url": "../src/assets/html/JavaScript_method.html"
+    },
+    {
       "id": 7,
       "caption": "Markdown 语法学习",
       "type": "Markdown",
