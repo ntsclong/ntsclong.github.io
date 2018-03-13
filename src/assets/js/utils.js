@@ -17,6 +17,7 @@ function CreateSnow(snowBox, src, style) {
   this.speed = 1.4 + Math.random();//下落速度
   this.createEle(src);//制作雪花dom   凹=放在最后，使得原型里能取到值
 }
+
 CreateSnow.prototype = {
   //雪片生成+下落
   createEle: function (baseSrc) {//生成雪花元素
@@ -33,10 +34,10 @@ CreateSnow.prototype = {
     this.ele.style.mozUserSelect = "none";
     this.ele.style.msUserSelect = "none";
 
-    this.ele.style.webkitAnimationIterationCount="infinite";
-    this.ele.style.webkitAnimationDirection="alternate";
-    this.ele.style.webkitAnimationTimingFunction="ease-in-out";
-    this.ele.style.webkitTransformOrigin="50% -100%";
+    this.ele.style.webkitAnimationIterationCount = "infinite";
+    this.ele.style.webkitAnimationDirection = "alternate";
+    this.ele.style.webkitAnimationTimingFunction = "ease-in-out";
+    this.ele.style.webkitTransformOrigin = "50% -100%";
     this.ele.style.webkitAnimationName = (Math.random() < 0.5) ? 'clockwiseSpin' : 'counterclockwiseSpinAndFlip';
     this.ele.style.webkitAnimationDuration = '5s';
 
@@ -61,6 +62,7 @@ CreateSnow.prototype = {
     this.ele.style.top = this.top + 'px';
   }
 };
+
 /*
 *下雪启动
 * snowBox:雪花容器
@@ -99,7 +101,7 @@ function isPhone() {
 }
 
 
-export {goSnow,isPhone}
+export {goSnow, isPhone}
 
 
 

@@ -189,6 +189,10 @@
       "typeName": "工具",
       "data": [
         {
+          "linkName":"百度静态资源库",
+          "linkUrl":"http://cdn.code.baidu.com/"
+        },
+        {
           "linkName": "属性兼容查询",
           "linkUrl": "https://caniuse.com/"
         },
@@ -217,8 +221,8 @@
           "linkUrl": "http://www.bejson.com/"
         },
         {
-          "linkName": "代码比对",
-          "linkUrl": "http://tool.oschina.net/diff/"
+          "linkName": "在线工具",
+          "linkUrl": "http://tool.oschina.net/"
         },
         {
           "linkName": "草料二维码",
