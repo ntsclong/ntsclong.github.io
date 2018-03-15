@@ -1,6 +1,24 @@
 {
   "notes": [
     {
+      "id": 10,
+      "caption": "Three.js学习(二)之点、线、面",
+      "type": "three.js",
+      "createtime": "2018-03-15",
+      "updatetime": "2018-03-15",
+      "intro": "摘要: 在计算机世界里，3D世界是由点组成，两个点能够组成一条直线，三个不在一条直线上的点就能够组成一个三角形面，无数三角形面就能够组成各种形状的物体",
+      "url": "../src/assets/html/threeJs_02.html"
+    },
+    {
+      "id": 9,
+      "caption": "Three.js学习(一)之初识three.js",
+      "type": "three.js",
+      "createtime": "2018-03-15",
+      "updatetime": "2018-03-15",
+      "intro": "摘要: 什么是threejs，很简单，你将它理解成three + js就可以了。three表示3D的意思，js表示javascript的意思。那么合起来，three.js就是使用javascript 来写3D程序的意思。",
+      "url": "../src/assets/html/threeJs_01.html"
+    },
+    {
       "id": 8,
       "caption": "JavaScript 常用方法",
       "type": "JavaScript",
