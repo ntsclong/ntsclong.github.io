@@ -1,6 +1,15 @@
 {
   "notes": [
     {
+      "id": 11,
+      "caption": "vue-devtools安装 ",
+      "type": "vue",
+      "createtime": "2018-04-08",
+      "updatetime": "2018-04-08",
+      "intro": "由于vue是数据驱动的，所以这就存在在开发调试中查看DOM结构并不能解析出什么。但是借助vue-devtools插件，我们就可以很容易的对数据结构进行解析和调试。",
+      "url": "../src/assets/html/vue-devtools.html"
+    },
+    {
       "id": 10,
       "caption": "Three.js学习(二)之点、线、面",
       "type": "three.js",
@@ -23,7 +32,7 @@
       "caption": "JavaScript 常用方法",
       "type": "JavaScript",
       "createtime": "2018-03-12",
-      "updatetime": "2018-03-12",
+      "updatetime": "2018-03-22",
       "intro": "摘要: 判断运行客户端 计算带中文的字符串长度（中文2字符） 时间格式化 文件大小格式化 cookie获取 javascript?linenums function getcookie(objname) { var arrstr = document.cookie.split('; '); for (var",
       "url": "../src/assets/html/JavaScript_method.html"
     },

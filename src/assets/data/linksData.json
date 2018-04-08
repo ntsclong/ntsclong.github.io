@@ -161,12 +161,20 @@
         {
           "linkName": "ECMAScript 6 入门",
           "linkUrl": "https://wohugb.gitbooks.io/ecmascript-6/content/index.html"
+        },
+        {
+          "linkName": "Three.js教程",
+          "linkUrl": "http://www.hewebgl.com/article/articledir/1"
         }
       ]
     },
     {
-      "typeName": "插件",
+      "typeName": "组件库",
       "data": [
+        {
+          "linkName": "Element UI",
+          "linkUrl": "http://element-cn.eleme.io/#/zh-CN"
+        },
         {
           "linkName": "UEditor",
           "linkUrl": "http://fex.baidu.com/ueditor/"
