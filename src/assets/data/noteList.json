@@ -5,7 +5,7 @@
       "caption": "vue-devtools安装 ",
       "type": "vue",
       "createtime": "2018-04-08",
-      "updatetime": "2018-04-08",
+      "updatetime": "2018-04-10",
       "intro": "由于vue是数据驱动的，所以这就存在在开发调试中查看DOM结构并不能解析出什么。但是借助vue-devtools插件，我们就可以很容易的对数据结构进行解析和调试。",
       "url": "../src/assets/html/vue-devtools.html"
     },
