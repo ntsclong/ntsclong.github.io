@@ -1,6 +1,15 @@
 {
   "notes": [
     {
+      "id": 12,
+      "caption": "JavaScript方法之排序",
+      "type": "JavaScript",
+      "createtime": "2018-04-24",
+      "updatetime": "2018-04-24",
+      "intro": "此处罗列出JavaScript十种排序方法",
+      "url": "../src/assets/html/JavaScript_sort.html"
+    },
+    {
       "id": 11,
       "caption": "vue-devtools安装 ",
       "type": "vue",
