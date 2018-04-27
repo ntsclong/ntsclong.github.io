@@ -1,5 +1,15 @@
 {
   "notes": [
+
+    {
+      "id": 13,
+      "caption": "Three.js使用之fbx模型动画控制",
+      "type": "three.js",
+      "createtime": "2018-04-27",
+      "updatetime": "2018-04-27",
+      "intro": "简单整理出ThreeJS引入FBX模型的动画分段播放",
+      "url": "../src/assets/html/threeJs_fbx_loader.html"
+    },
     {
       "id": 12,
       "caption": "JavaScript方法之排序",
