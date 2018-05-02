@@ -1,6 +1,14 @@
 {
   "notes": [
-
+    {
+      "id": 14,
+      "caption": "中国国内可用API合集",
+      "type": "API",
+      "createtime": "2018-05-02",
+      "updatetime": "2018-05-02",
+      "intro": "收集整理出国内各类API，涉及：笔记、出行、词典、电商、地图、电影、即时通讯、开发者网站、快递查询、旅游、社交、视频、天气等类别",
+      "url": "../src/assets/html/postAPI.html"
+    },
     {
       "id": 13,
       "caption": "Three.js使用之fbx模型动画控制",
@@ -51,7 +59,7 @@
       "caption": "JavaScript 常用方法",
       "type": "JavaScript",
       "createtime": "2018-03-12",
-      "updatetime": "2018-03-22",
+      "updatetime": "2018-04-28",
       "intro": "摘要: 判断运行客户端 计算带中文的字符串长度（中文2字符） 时间格式化 文件大小格式化 cookie获取 javascript?linenums function getcookie(objname) { var arrstr = document.cookie.split('; '); for (var",
       "url": "../src/assets/html/JavaScript_method.html"
     },
