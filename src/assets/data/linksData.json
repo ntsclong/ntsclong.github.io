@@ -209,6 +209,9 @@
       "typeName": "工具",
       "data": [
         {
+          "linkName":"bootCDN",
+          "linkUrl":"http://www.bootcdn.cn/"
+        },{
           "linkName":"百度静态资源库",
           "linkUrl":"http://cdn.code.baidu.com/"
         },
