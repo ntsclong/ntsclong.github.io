@@ -1,6 +1,33 @@
 {
   "notes": [
     {
+      "id": 17,
+      "caption": "React-Devtools安装 ",
+      "type": "React",
+      "createtime": "2018-05-22",
+      "updatetime": "2018-05-22",
+      "intro": "React Devtools是React官方提供的类似于浏览器调试台的插件。通过在浏览器中安装这个插件，可以查看组件的层次、各个组件的Props、States等信息。并且它的使用方式也很简单。",
+      "url": "../src/assets/html/React_Devtools.html"
+    },
+    {
+      "id": 16,
+      "caption": "React学习(一)之初识React",
+      "type": "React",
+      "createtime": "2018-05-22",
+      "updatetime": "2018-05-22",
+      "intro": "React是一个采用声明式，高效而且灵活的用来构建用户界面的框架，在这里初步记录React学习过程中的知识点。",
+      "url": "../src/assets/html/React_01.html"
+    },
+    {
+      "id": 15,
+      "caption": "webStorm常用设置之Tab模版设置",
+      "type": "webStorm",
+      "createtime": "2018-05-22",
+      "updatetime": "2018-05-22",
+      "intro": "通过设置IDE模版，快速高效的使用Tab键写入代码，小伙伴们又可以偷个小懒了",
+      "url": "../src/assets/html/webStorm_TabSet.html"
+    },
+    {
       "id": 14,
       "caption": "中国国内可用API合集",
       "type": "API",
@@ -32,7 +59,7 @@
       "caption": "vue-devtools安装 ",
       "type": "vue",
       "createtime": "2018-04-08",
-      "updatetime": "2018-04-10",
+      "updatetime": "2018-05-22",
       "intro": "由于vue是数据驱动的，所以这就存在在开发调试中查看DOM结构并不能解析出什么。但是借助vue-devtools插件，我们就可以很容易的对数据结构进行解析和调试。",
       "url": "../src/assets/html/vue-devtools.html"
     },
