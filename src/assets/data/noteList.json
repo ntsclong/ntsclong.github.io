@@ -1,14 +1,23 @@
 {
   "notes": [
     {
+      "id": 19,
+      "caption": "React学习(三)之组件refs和state",
+      "type": "React",
+      "createtime": "2018-05-23",
+      "updatetime": "2018-05-23",
+      "intro": "文章对React组件中的refs和state两大属性进行了简介，并提供代码案例进行学习与分析",
+      "url": "../src/assets/html/React_03.html"
+    },{
       "id": 18,
-      "caption": "React学习(二)之组件",
+      "caption": "React学习(二)之组件与props",
       "type": "React",
       "createtime": "2018-05-23",
       "updatetime": "2018-05-23",
       "intro": "组件可以将UI切分成一些的独立的、可复用的部件，这样你就只需专注于构建每一个单独的部件。",
       "url": "../src/assets/html/React_02.html"
-    },{
+    },
+    {
       "id": 17,
       "caption": "React-Devtools安装",
       "type": "React",
