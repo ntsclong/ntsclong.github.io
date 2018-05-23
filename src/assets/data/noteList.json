@@ -1,8 +1,16 @@
 {
   "notes": [
     {
+      "id": 18,
+      "caption": "React学习(二)之组件",
+      "type": "React",
+      "createtime": "2018-05-23",
+      "updatetime": "2018-05-23",
+      "intro": "组件可以将UI切分成一些的独立的、可复用的部件，这样你就只需专注于构建每一个单独的部件。",
+      "url": "../src/assets/html/React_02.html"
+    },{
       "id": 17,
-      "caption": "React-Devtools安装 ",
+      "caption": "React-Devtools安装",
       "type": "React",
       "createtime": "2018-05-22",
       "updatetime": "2018-05-22",
