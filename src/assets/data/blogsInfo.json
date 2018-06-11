@@ -1,5 +1,66 @@
 {
   "blogName": "小桃酥的曲奇饼",
   "subtitle": "学如逆水行舟，不进则退。",
-  "createTime":"2017-12-29 09:03:00"
+  "createTime": "2017-12-29 09:03:00",
+
+  "about": {
+    "PersonalInfo": {
+      "intro": "我叫小桃酥的曲奇饼(无奈...有点长)，直接叫我曲奇也行，92年出生于江苏盐城。现在北京工作，住在霍营那一带。",
+      "introList": [
+        "喜欢鼓捣各种东西(电子产品、软件系统、博客论坛)，一个动手能力较强的前端职业者。",
+        "乐于助人，不管是平时生活还是工作都喜欢帮助他人",
+        "享受那种问题(bug)在自己手上解决掉的感觉",
+        "有代码强迫症，最初自己写的代码没技术含量(实在看不下去)，慢慢养成了写完一个功能都会回头去梳理逻辑的习惯"
+      ],
+      "contact":[
+        "Email：caiyl@ntsclong.com&emsp;||&emsp;ntsclong@foxmail.com",
+        "GitHub：github.com/ntsclong",
+        "Gitee：gitee.com/ntsclong",
+        "博客园：www.cnblogs.com/cookies-cnbogs",
+        "QQ：602165066&nbsp;(请注明来意)"
+      ]
+    },
+    "DesirableSkills": [
+      "熟练运用 HTML+CSS，快速精准还原设计稿，实现语义化与可读性并重的标准页面；",
+      "熟练使用 JavaScript/jQuery/Bootstrap，完成基于 DOM 的特效交互；",
+      "熟练掌握原生 JavaScript DOM  编程，且具有面向对象编程能力,对原型链、继承、作用域、闭包、回调等有一定的认知；",
+      "熟练使用 Layui/UEditor/ECharts/Plupload/Swiper/ckplayer 等第三方开源类库进行开发；",
+      "熟练运用 Ajax/JSONP 等技术，完成与后台的数据交互；",
+      "熟练运用 Sass/stylus 预处理器，实现代码简洁、适应性强、可读性佳的CSS代码；",
+      "熟悉主流MVVM框架(react、angular),并能够使用 Vue全家桶(Vue+Vuex+Vue-router),并结合 ElementUI、VUX、Vant等UI组件进行项目快速开发；",
+      "熟练运用 ES6(Promise、箭头函数等)，关注页面性能优化；",
+      "熟练使用Git、GitLab、SVN等版本控制器；了解Node、webpack、gulp，可以进行一定配置和使用；",
+      "开发工具：WebStorm、Sublime Text、MarkDown、Chrome、PhotoShop"
+    ],
+    "WorkExperience": [
+      {
+        "name": "北京嘉和美康信息技术有限公司",
+        "time": "2018/05~至今",
+        "job": "前端工程师"
+      },
+      {
+        "name": "北京中科视维文化科技有限公司",
+        "time": "2017/10~2018/05",
+        "job": "前端工程师"
+      },
+      {
+        "name": "明博教育科技股份有限公司",
+        "time": "2015/10~2017/08",
+        "job": "前端工程师"
+      },
+      {
+        "name": "科翔软通信息技术南通有限公司",
+        "time": "2014/05~2015/08",
+        "job": "网页制作"
+      }
+    ],
+    "ProjectExperience":[
+      {"name":"光团乐园CMS管理系统(内部项目)","url":""},
+      {"name":"光团乐园webAR导航","url":""},
+      {"name":"移动端web点单系统","url":"http://gitee.com/ntsclong/ddxt"},
+      {"name":"校园物联网智能管理系统","url":"http://www.iotgw.com:8888/"},
+      {"name":"优课智慧教育平台","url":"http://yun.myuclass.com"},
+      {"name":"AR梦幻课堂","url":"http://ar.myuclass.com/"}
+    ]
+  }
 }
