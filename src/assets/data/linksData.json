@@ -214,6 +214,9 @@
         },{
           "linkName":"百度静态资源库",
           "linkUrl":"http://cdn.code.baidu.com/"
+        },{
+          "linkName":"七牛云存储开放静态文件CDN",
+          "linkUrl":"http://www.staticfile.org/"
         },
         {
           "linkName": "属性兼容查询",
