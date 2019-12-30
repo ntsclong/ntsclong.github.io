@@ -1,2 +1,2 @@
 我的主页
-访问地址：http://www.ntsclong.com
+访问地址：http://www.ntsclong.cn
