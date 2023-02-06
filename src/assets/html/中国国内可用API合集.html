@@ -1,0 +1,2079 @@
+<!DOCTYPE html><html lang="en"><head>
+<title> 中国国内可用API合集</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+#wmd-preview{
+  max-width: 210mm;
+  margin: 0 auto;
+}
+#nav{
+  display: none;
+}
+.xsj_container_toc>#nav{
+    display: block;
+    background-color: #f9f9f9;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 300px;
+    z-index: 1;
+
+    font-size: 80%;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.xsj_container_toc>#wmd-preview{
+    padding-left: 300px;
+}
+.hide_toc.xsj_container_toc>#nav{
+    display: none;
+}
+
+.hide_toc.xsj_container_toc>#wmd-preview{
+    padding-left: 0;
+}
+
+#toc-nav {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    min-width: 1.33em;
+    border-top-right-radius: 2rem;
+    box-shadow: 0 0 2px;
+    color: black;
+}
+
+#toc-nav .toc-toggle-tip{
+    display:none;
+}
+#toc-nav:hover .toc-toggle-tip{
+    display:initial;
+    margin-right: .5em;
+    }
+</style>
+<style type="text/css">
+.tocbot{overflow-y:auto}.tocbot>.toc-list{overflow:hidden;position:relative}.tocbot>.toc-list li{list-style:none}.toc-list{margin:0;padding-left:10px}a.toc-link{color:currentColor;height:100%}.is-collapsible{max-height:1000px;overflow:hidden;transition:all 300ms ease-in-out}.is-collapsed{max-height:0}.is-position-fixed{position:fixed !important;top:0}.is-active-link{font-weight:700}.toc-link::before{background-color:#EEE;content:' ';display:inline-block;height:inherit;left:0;margin-top:-1px;position:absolute;width:2px}.is-active-link::before{background-color:#54BC4B}
+</style>
+<style type="text/css">
+/* normal start */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, 'Hiragino Sans GB', STHeiti, "Microsoft YaHei", "微软雅黑", 'WenQuanYi Micro Hei', STXihei, "华文细黑", Heiti, "黑体", SimSun, "宋体", Song, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  color: #2f2f2f;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+
+/* link start */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+/* link end */
+
+
+/* head start */
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 2rem;;
+  margin: .8em 0 .6em 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: .7em 0 .5em 0;
+}
+
+h3 {
+  font-size: 1.17rem;
+  margin: .6em 0 .4em 0;
+}
+
+h4 {
+  margin: .5em 0 .3em 0;
+}
+
+video {
+  max-width: 100%;
+}
+
+h5 {
+  font-size: 0.83rem;
+  margin: .5em 0 .3em 0;
+}
+
+h6 {
+  font-size: 0.67rem;
+  margin: .5em 0 .3em 0;
+}
+/* head end */
+
+.xsj_hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px dashed #2f2f2f;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+}
+
+p {
+    margin: 1.1em 0 1.6em;
+}
+
+pre{
+    line-height: initial !important;
+    word-wrap: break-word;
+    word-break: break-word;
+    tab-size: 4;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+kbd{
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #2f2f2f;
+    vertical-align: middle;
+    background: #fcfcfc;
+    border: solid 1px #2f2f2f;
+    border-bottom-color: #2f2f2f;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #2f2f2f;
+}
+
+address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* list start */
+ul,ol {
+  padding: 0;
+  margin: 1.1em 0 1.1em 3em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+/* list end */
+
+dl {
+  margin-bottom: 20px;
+}
+
+dt,
+dd {
+  line-height: 20px;
+}
+
+dt {
+  font-weight: bold;
+  line-height: 1.35em;
+}
+
+dd {
+  margin-left: 10px;
+  line-height: 1.35em;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+
+/* normal end */
+
+
+/* blockquote start */
+blockquote {
+  padding: 20px 20px;
+  margin: 20px 0 20px;
+  border-left: 5px solid rgba(153, 153, 153, 0.2);
+  background: rgba(204, 204, 204, 0.2);
+}
+
+blockquote p {
+    margin: 1.1em 0 1.1em;
+}
+
+blockquote>ol.markdown_ol, blockquote>ul.markdown_ul{
+  margin-left: 1.1em;
+}
+
+blockquote>*:first-child {
+  margin-top: 0;
+}
+
+blockquote>*:last-child {
+  margin-bottom: 0;
+}
+
+blockquote small {
+  display: block;
+  line-height: 20px;
+  color: #999999;
+}
+
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+
+blockquote footer{
+    margin: 1em 0;
+    font-style: italic;
+}
+
+blockquote footer cite {
+    margin: 0 1em;
+}
+
+/* blockquote end */
+
+/**
+ * Treeview syntax highlighting based on highlight.js
+ * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+ * https://github.com/asciidocfx/highlight-treeview.js
+ */
+.language-treeview.hljs{
+  position: relative;
+}
+.hljs-folder,
+.hljs-hiddenfile,
+.hljs-file {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    height: 16px;
+}
+.hljs-folder:before,
+.hljs-file:before,
+.hljs-hiddenfile:before {
+    top: 0;
+    content: '';
+    width: 14px;
+    height: 12px;
+    margin-top: 0px;
+    margin-right: 3px;
+    position: relative;
+    display: inline-block;
+    background-size: 14px;
+    background-repeat: no-repeat;
+}
+.hljs-file:before,
+.hljs-hiddenfile:before {
+    height: 14px;
+    margin-left: 1px;
+}
+.hljs-hiddenfile {
+    opacity: 0.6;
+}
+.hljs-file.photo:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c5";
+}
+.hljs-file.plain:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f016";
+}
+.hljs-file.source:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c9";
+}
+.hljs-file.archive:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c6";
+}
+.hljs-file.audio:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c7";
+}
+.hljs-file.video:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c8";
+}
+.hljs-file.pdf:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c1";
+}
+.hljs-file.xls:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c3";
+}
+.hljs-file.doc:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c2";
+}
+.hljs-file.ppt:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c4";
+}
+.hljs-folder:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f114";
+}
+.hljs-hiddenfile:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f016";
+}
+.hljs-tvline {
+    margin-left: 6px;
+    position: absolute;
+    text-indent: -99em;
+    padding-bottom: 8px;
+    vertical-align: top;
+    display: inline-block;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(94, 144, 117);
+}
+.hljs-folder-branch {
+    width: 8px;
+    height: 8px;
+    margin-top: -1px;
+    margin-left: 6px;
+    text-indent: -99em;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(94, 144, 117);
+}
+.hljs-folder-branch.win {
+    width: 14px;
+    margin-right: 2px;
+}
+.hljs-folder-last-branch {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    text-indent: -99em;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(94, 144, 117);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(94, 144, 117);
+}
+.hljs-folder-last-branch.win {
+    width: 13px;
+    margin-right: 2px;
+}
+
+
+/**
+ * Treeview syntax highlighting based on highlight.js
+ */
+
+/*wavedrom start*/
+
+.wavedrom_svg text, .wavedrom_svg_defs text {
+    font-size:11pt;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-stretch:normal;
+    text-align:center;
+    fill-opacity:1;
+    font-family:Helvetica
+}
+.wavedrom_svg .muted, .wavedrom_svg_defs .muted {
+    fill:#aaa
+}
+.wavedrom_svg .warning, .wavedrom_svg_defs .warning {
+    fill:#f6b900
+}
+.wavedrom_svg .error, .wavedrom_svg_defs .error {
+    fill:#f60000
+}
+.wavedrom_svg .info, .wavedrom_svg_defs .info {
+    fill:#0041c4
+}
+.wavedrom_svg .success, .wavedrom_svg_defs .success {
+    fill:#00ab00
+}
+.wavedrom_svg .h1, .wavedrom_svg_defs .h1 {
+    font-size:33pt;
+    font-weight:bold
+}
+.wavedrom_svg .h2, .wavedrom_svg_defs .h2 {
+    font-size:27pt;
+    font-weight:bold
+}
+.wavedrom_svg .h3, .wavedrom_svg_defs .h3 {
+    font-size:20pt;
+    font-weight:bold
+}
+.wavedrom_svg .h4, .wavedrom_svg_defs .h4 {
+    font-size:14pt;
+    font-weight:bold
+}
+.wavedrom_svg .h5, .wavedrom_svg_defs .h5 {
+    font-size:11pt;
+    font-weight:bold
+}
+.wavedrom_svg .h6, .wavedrom_svg_defs .h6 {
+    font-size:8pt;
+    font-weight:bold
+}
+.wavedrom_svg_defs .s1 {
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+.wavedrom_svg_defs .s2 {
+    fill:none;
+    stroke:#000;
+    stroke-width:0.5;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+.wavedrom_svg_defs .s3 {
+    color:#000;
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:1,3;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s4 {
+    color:#000;
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible
+}
+.wavedrom_svg_defs .s5 {
+    fill:#fff;
+    stroke:none
+}
+.wavedrom_svg_defs .s6 {
+    color:#000;
+    fill:#ffffb4;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s7 {
+    color:#000;
+    fill:#ffe0b9;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s8 {
+    color:#000;
+    fill:#b9e0ff;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s9 {
+    fill:#000;
+    fill-opacity:1;
+    stroke:none
+}
+.wavedrom_svg_defs .s10 {
+    color:#000;
+    fill:#fff;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s11 {
+    fill:#0041c4;
+    fill-opacity:1;
+    stroke:none
+}
+.wavedrom_svg_defs .s12 {
+    fill:none;
+    stroke:#0041c4;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+
+/*wavedrom stop*/
+
+
+/* fontawesome */
+
+/*!
+ * Font Awesome Free 5.7.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+svg:not(:root).svg-inline--fa {
+  overflow: visible; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .svg-inline--fa.fa-lg {
+    vertical-align: -.225em; }
+  .svg-inline--fa.fa-w-1 {
+    width: 0.0625em; }
+  .svg-inline--fa.fa-w-2 {
+    width: 0.125em; }
+  .svg-inline--fa.fa-w-3 {
+    width: 0.1875em; }
+  .svg-inline--fa.fa-w-4 {
+    width: 0.25em; }
+  .svg-inline--fa.fa-w-5 {
+    width: 0.3125em; }
+  .svg-inline--fa.fa-w-6 {
+    width: 0.375em; }
+  .svg-inline--fa.fa-w-7 {
+    width: 0.4375em; }
+  .svg-inline--fa.fa-w-8 {
+    width: 0.5em; }
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em; }
+  .svg-inline--fa.fa-w-10 {
+    width: 0.625em; }
+  .svg-inline--fa.fa-w-11 {
+    width: 0.6875em; }
+  .svg-inline--fa.fa-w-12 {
+    width: 0.75em; }
+  .svg-inline--fa.fa-w-13 {
+    width: 0.8125em; }
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em; }
+  .svg-inline--fa.fa-w-15 {
+    width: 0.9375em; }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em; }
+  .svg-inline--fa.fa-w-17 {
+    width: 1.0625em; }
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em; }
+  .svg-inline--fa.fa-w-19 {
+    width: 1.1875em; }
+  .svg-inline--fa.fa-w-20 {
+    width: 1.25em; }
+  .svg-inline--fa.fa-pull-left {
+    margin-right: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-pull-right {
+    margin-left: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-border {
+    height: 1.5em; }
+  .svg-inline--fa.fa-li {
+    width: 2em; }
+  .svg-inline--fa.fa-fw {
+    width: 1.25em; }
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -.125em;
+  width: 1em; }
+  .fa-layers svg.svg-inline--fa {
+    -webkit-transform-origin: center center;
+            transform-origin: center center; }
+
+.fa-layers-text, .fa-layers-counter {
+  display: inline-block;
+  position: absolute;
+  text-align: center; }
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center; }
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: .25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left; }
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul > li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.far,.fa {
+  margin: 0 .3em;
+}
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em; }
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em; }
+
+.fa-inverse {
+  color: #fff; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* fontawesome end*/
+
+/* xsj patch start */
+
+.xsj_anchor{
+  overflow: hidden;
+  float: right;
+}
+
+.blank_anchor_id {
+    float: right;
+    width: 1px;
+    height: 0px;
+}
+.blank_anchor_id {
+    visibility: hidden;
+}
+.blank_anchor_id:before {
+    content: 'a';
+}
+.xsj_foreignObject{
+  width: 100%!important;
+  height: 100%!important;
+  text-align: initial;
+  word-spacing: normal;
+}
+.xsj_foreignObject hr{
+    margin: inherit;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject *{
+  font-size: inherit;
+}
+.xsj_export_pdf .xsj_foreignObject.xsj_drawio_foreignObject *{
+  font-size: 85%;
+}
+
+.xsj_export_pdf ins .mathjax .MathJax_SVG {
+    border-bottom: 2px solid;
+}
+
+.xsj_foreignObject.xsj_drawio_foreignObject h1{
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h2{
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h3{
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h4{
+  font-size: 1em;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h5{
+  font-size: .83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h6{
+  font-size: .67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* xsj patch end */
+
+
+/* title start */
+h1.story_title {
+    font-size: 2.1rem;
+    margin: 0.7em 0;
+}
+/* title end */
+
+/* tag start */
+.story_tags {
+    margin: 0 0 1.2em;
+}
+.tag.label{
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+    margin: 0 0.5em 0.5em 0;
+    background: #e2e2e2;
+    border-color: #e2e2e2;
+    background-image: none;
+    padding: 0.6em 0.8em;
+    font-weight: bold;
+    border-radius: 0.2857rem;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+/* tag end */
+
+/* emoji */
+img.emoji {
+    width: 1em;
+    line-height: 1em;
+    vertical-align: baseline;
+    margin-bottom: 0;
+}
+/* emoji */
+
+/* align grammar start*/
+
+.story_align_left, .story_align_left .story_image_container {
+    text-align: left;
+}
+.story_align_right, .story_align_right .story_image_container {
+    text-align: right;
+}
+.story_align_center, .story_align_center .story_image_container {
+    text-align: center;
+}
+.story_align_justify, .story_align_justify .story_image_container {
+    text-align: justify;
+}
+
+/* align grammar end*/
+
+/*mindmap start*/
+.mindmap_container {
+  text-align: center;
+}
+
+.xsj_mindmap_caption{
+   border-bottom: 1px solid #d9d9d9;
+  display: inline-block;
+  color: #999;
+  padding: 10px;
+}
+/*mindmap end*/
+
+
+
+/* table start*/
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  word-break: initial;
+  border: 1px solid #d9d9da;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #d9d9da;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #d9d9da;
+}
+
+.table .table {
+  background-color: #ffffff;
+}
+
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-celled.table tr td,.table-celled.table tr th {
+    border-left: 1px solid #d9d9da;
+}
+
+/* table end*/
+
+/*code start*/
+
+code {
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 0 .225em;
+    color: #880000;
+}
+body code{
+    border: 0;
+    border-radius: 4px;
+    font-size: .9em;
+}
+
+.hljs, .hljs * {
+  overflow: visible !important;
+} 
+
+body .xiaoshujiang_code {
+    border: 0;
+    border-radius: 4px;
+    font-size: .9em;
+}
+.xiaoshujiang_code ol{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.xiaoshujiang_pre {
+    line-height: initial !important;
+    word-wrap: break-word;
+    word-break: break-word;
+    tab-size: 4;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+.xiaoshujiang_code_container pre{
+    margin: 0px;
+}
+.xiaoshujiang_code_container.xiaoshujiang_code_chunk{
+    box-shadow: 0 0 0 1px #A3C293 inset,0 0 0 0 transparent;
+    margin: 1em 0;
+    padding: 1em;
+}
+.xiaoshujiang_code_container.xiaoshujiang_code_chunk_hide_code{
+    box-shadow: initial;
+    padding: initial;
+    padding-bottom: 2em;
+}
+.xiaoshujiang_code_container .out_put{
+    box-shadow: 0 0 0 1px #A3C293 inset,0 0 0 0 transparent;
+    margin: 1em 0;
+    background-color: #FCFFF5;
+    color: #2C662D;
+    padding: 1em;
+}
+.xiaoshujiang_code_container .out_put_error{
+    background-color: #FFF6F6;
+    color: #9F3A38;
+    margin: 1em 0;
+    box-shadow: 0 0 0 1px #E0B4B4 inset,0 0 0 0 transparent;
+    padding: 1em;
+}
+
+/*code end*/
+
+/* code line nums start*/
+
+code.hljs.code_linenums, .xiaoshujiang_code.hljs.code_linenums{
+    position: relative;
+}
+.ol_linenums{
+    padding: 0px;
+    margin-left: 2em;
+    border-left: 1px solid #e0e0e0;
+}
+.li_linenum{
+    position:relative;
+    margin-left: 0.5em;
+    list-style: none;
+    counter-increment: lines 1;
+}
+.li_linenum.li_list_style{
+    list-style: inherit;
+    margin-left: 5px;
+}
+.li_linenum:before, .li_linenum_before_span{
+    content: counter(lines, decimal);
+  position: absolute;
+  left: -3em;
+  text-align: center;
+  width: 2.5em;
+  vertical-align: top;
+}
+.li_linenum_before_span_hide{
+    display: none;
+}
+.xiaoshujiang_code .code_line_break_hack{
+    margin:0;
+    border:0;
+    border-top:0;
+    border-bottom:0;
+}
+.component_attachment, .code_line_break_hack{
+  display: none;
+  visibility: collapse!important;
+  height: 0!important;
+}
+
+/* code line nums end*/
+
+/* block code start */
+.xiaoshujiang_code_container {
+    margin: 1em 0px 2em;
+    position: relative;
+}
+
+
+.xiaoshujiang_code_title_container{
+    font-size: 50%;
+}
+.xiaoshujiang_code_title_container>.xiaoshujiang_code_infos{
+    float: right;
+}
+/* block code end */
+
+
+/*mark start*/
+
+.mark{
+  border: 0;
+  background-color: rgba(221, 243, 231, 0.4);
+  color: #105012;
+  padding: 2px 4px;
+}
+
+.li_linenum.line_mark:before, .line_mark .li_linenum_before_span {
+    background: rgba(210, 118, 118, 0.6);
+}
+.line_mark{
+    border: 1px dashed #3A4C42;
+    margin-top: 2px;
+}
+code .mark, .xiaoshujiang_code .mark{
+    border-radius: 0px;
+    font-size: initial;
+    padding: initial;
+}
+/*mark end*/
+
+
+.xsj_code_strong{
+  -webkit-text-emphasis: triangle;
+  -webkit-text-emphasis-position: under;
+}
+
+/* attachment start */
+a.attachment{
+    background: #ecf0f3;
+    border: 1px solid #bec6cb;
+    display: inline-block;
+    padding: 0.6em;
+    margin: 0 0.5em;
+    min-width: 250px;
+}
+a.attachment i.fa{
+    font-size: 3em;
+  float: left;
+  margin-right: 0.2em;
+}
+a.attachment .filename{
+    vertical-align: top;
+  text-align: left;
+  font-weight: bold;
+}
+a.attachment .filesize{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  opacity: .6;
+  font-size: 80%;
+  white-space: nowrap;
+}
+/* attachment end */
+
+
+/*code chunk video, slideshare start*/
+.video_container{
+    width: 100%;
+    display: table;
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%!important;
+}
+
+.video_container iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.slideshare_container .inner{
+    position: relative;
+    width: 100%;
+}
+
+.slideshare_container .inner iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*code chunk video, slideshare start*/
+
+
+
+/*mermaid start*/
+
+.mermaid {
+    text-align: center;
+}
+
+.mermaid_svg{
+    font-family: monospace;
+    text-align: initial;
+}
+.mermaid_svg foreignObject{
+  overflow: visible;
+}
+.mermaid_svg foreignObject i.fa{
+  min-width: 16px;
+}
+.mermaid_svg .svg-inline--fa,.mermaid_svg .svg-inline--fa path {
+    fill: initial!important;
+    stroke: initial!important;
+}
+
+.mermaid_svg .grid path {
+  stroke: transparent;
+}
+/*mermaid stop*/
+
+
+/* patch evernote start*/
+.toc ul {
+    list-style-type: none;
+}
+/* patch evernote end*/
+
+
+/* image start*/
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.story_image_container{
+    text-align: center;
+}
+.story_image_container>.story_image{
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.story_image_caption, .xsj_remote_html_caption {
+    border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 10px;
+}
+.story_image_blank_caption, .xsj_remote_html_blank_caption{
+    display: none;
+}
+.story_image>img{
+    border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
+}
+
+.story_inline_image{
+  display: inline-block;
+}
+.story_inline_image>img{
+    vertical-align: bottom;
+}
+/* image end*/
+
+.story_remote_resource_block{
+    text-align: center;
+}
+
+/* task list start */
+.task-list-item{
+    list-style: none;
+}
+.task-list-item.li_list_style{
+    list-style:inherit;
+}
+.task-list-item>input{
+    margin: 0 0 0 -1.5em;
+    width: 1.5em;
+}
+
+/* task list end */
+
+/* other start */
+em.cjk_emphasis{
+    font-style: normal;
+    font-family: Georgia,"Times New Roman",Times,"楷体","AR PL UKai CN", "NSimSun","Songti SC","SimSun",serif!important;
+}
+
+.flow-chart, .sequence-diagram{
+    text-align: center;
+}
+.plot, .plot-image{
+    text-align: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+ins .mathjax .MathJax_SVG {
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.mathjax-container{
+    text-align: center;
+    margin: 0 auto;
+}
+div.mathjax{
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.mathjax-container .math_equation_table{
+  border: 0;
+  width: 100%;
+}
+.mathjax-container .math_equation_table td{
+  text-align: center;
+  vertical-align: top;
+}
+
+.xsj_numbered_heading{
+  margin-right: .5em;
+}
+
+.xsj_export_pdf .fa-border {
+  border: none;
+  border-radius: initial;
+  padding: initial;
+  margin: 0 .25em;
+  outline-offset: .2em;
+  outline: 1px solid #eee;
+}
+.preview.html_preview{
+  max-width: 100%;
+}
+
+.xsj_export_pdf.preview.html_preview{
+  max-width: initial;
+  border: initial;
+  margin: initial;
+  padding: initial;
+  border-radius: initial;
+  box-shadow: initial;
+}
+/* other end */
+
+
+
+
+/* blockquote start*/
+/** only icon **/
+.html_preview>.markdown_blockquote{
+    position: relative;
+}
+.html_preview>.markdown_blockquote.markdown_blockquote_icon{
+    margin-left: 10px;
+}
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>i:first-child{
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -18px;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+
+}
+
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>.svg-image:first-child,
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>svg.svg-inline--fa:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -15px;
+    line-height: 30px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    box-shadow: 0 0 0px 5px #dedede;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+    outline: 0;
+    margin: 0;
+}
+/** only icon **/
+/** heading **/
+.html_preview > .markdown_blockquote.markdown_blockquote_heading {
+    margin-top: 40px;
+    page-break-inside: auto;
+}
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child {
+    display: block;
+    font-size: 1.4em;
+    background-color: #dedede;
+    padding: 0 15px;
+    margin: -20px;
+    position: relative;
+}
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>i:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -16px;
+    top: .25em;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 16px !important;
+    padding: 0;
+    border: 0px;
+}
+
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>.svg-image:first-child,
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>svg.svg-inline--fa:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -15px;
+    top: .25em;
+    line-height: 30px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    box-shadow: 0 0 0px 5px #dedede;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+    outline: 0;
+    margin: 0;
+}
+
+/** heading **/
+/* blockquote end*/
+
+
+@media print{
+  body{
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: break-word;
+    background: initial!important;
+    font-kerning: normal;
+    text-rendering: geometricPrecision;
+  }
+  .preview.html_preview{
+    max-width: initial;
+    border: initial;
+    margin: initial;
+    padding: initial;
+    border-radius: initial;
+    box-shadow: initial;
+  }
+  .xiaoshujiang_element.xsj_anchor{
+    position: absolute;
+  }
+  tr { page-break-inside: avoid; }
+  .story_image_container{
+     page-break-inside: avoid;
+  }
+  blockquote{
+    page-break-inside: avoid;
+  }
+
+  .xsj_underline{
+      page-break-after: always;
+      visibility: hidden;
+  }
+}
+
+body{color:#2f2f2f}.xsj_hr{border-top:1px dashed #2f2f2f}kbd{color:#2f2f2f;border:solid 1px #2f2f2f;border-bottom-color:#2f2f2f;box-shadow:inset 0 -1px 0 #2f2f2f}table{border:1px solid rgba(34,36,38,.15)}.table td,.table th{border-top:1px solid #ddd}.table tbody+tbody{border-top:2px solid #ddd}.table .table{background:#fff}.table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th{background:#f9f9f9}.table-celled.table tr td,.table-celled.table tr th{border-left:1px solid rgba(34,36,38,.1)}.line_mark{background:rgba(210,174,174,.3)}.xiaoshujiang_code .mark,code .mark{background:rgba(160,234,194,.7)}.markdown_vertical>*,.markdown_vertical>:first-child{margin-top:.8em}.markdown_vertical{font-family:YRDZST,"Noto Serif CJK SC",FandolKai,"Adobe Kaiti Std","Adobe 楷体 Std",FZKai-Z03S,"方正楷体简体","AR PL UKai CN","楷体",NSimSun,SimSun,serif;font-size:1.2em;writing-mode:vertical-rl;border:initial;border-left:initial;background:initial;margin-left:auto!important;margin-right:0}.markdown_vertical em{-webkit-text-emphasis:circle}.markdown_vertical strong{border-left:2px solid}.html_preview>.markdown_blockquote_heading.markdown_vertical>.xsj_heading:first-child{position:initial;background:initial;border:initial;background-color:initial;border-top:initial}.html_preview>.markdown_blockquote.markdown_vertical>.xsj_paragraph:first-child>i:first-child,.html_preview>.markdown_blockquote_heading.markdown_vertical>.xsj_heading:first-child .xsj_heading_content>i:first-child{position:initial;background-color:initial}@media print{.markdown_vertical{writing-mode:initial}.markdown_vertical strong{border-left:0;border-bottom:2px solid}}
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta .hljs-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta .hljs--string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+</style>
+</head><body>
+<div class="xsj_root">
+<p id="toc-nav"><a id="toc-toggle" href="javascript:void();"><span class="toc-toggle-icon">←</span> <span class="toc-toggle-tip">关闭目录</span></a></p>
+<nav id="nav" class="tocbot"></nav>
+<div class="preview" id="wmd-preview">
+
+	<div class="preview html_preview xsj_export_html"><h1 class="story_title">中国国内可用API合集</h1><div class="story_tags"><span class="tag blue label">API</span></div><h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e7ac94e8aeb0_1"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e7ac94e8aeb0_1" class="blank_anchor_name"></a><a id="e7ac94e8aeb0_1" class="blank_anchor_id"></a><a name="笔记" class="blank_anchor_name"></a><a id="笔记" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">笔记</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://msdn.microsoft.com/en-us/office/office365/howto/onenote-landing" target="_blank" class="xsj_link xsj_manu_link">OneNote</a> - OneNote支持获取，复制，创建，更新，导入与导出笔记，支持为笔记添加多媒体内容，管理权限等。提供SDK和Demo。</li>
+<li><a href="http://www.wiz.cn/manual/plugin/" target="_blank" class="xsj_link xsj_manu_link">为知笔记</a> - 为知笔记Windows客户端开放了大量的API，其中绝大部分，都通过COM提供，可以在javascript, C#, C++, Delphi等语言中使用。接口通过IDL(Interface description language)语言描述。</li>
+<li><a href="https://dev.yinxiang.com/" target="_blank" class="xsj_link xsj_manu_link">印象笔记</a> - 印象笔记提供了ActionScript 3, Android, C++, Windows, iOS, Java, JavaScript, OS X, Perl, PHP, Python, Ruby等平台的SDK和完整的API参考文档，可通过API进行认证，笔记，笔记本，附件，搜索，同步等操作，同时提供企业版和本地API。</li>
+<li><a href="http://note.youdao.com/open/" target="_blank" class="xsj_link xsj_manu_link">有道云笔记</a> - 有道云笔记提供了Android SDK，同时Open API允许进行授权，用户，笔记本，笔记，分享，附件等方面的操作。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e587bae8a18c_2"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e587bae8a18c_2" class="blank_anchor_name"></a><a id="e587bae8a18c_2" class="blank_anchor_id"></a><a name="出行" class="blank_anchor_name"></a><a id="出行" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">出行</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://open.xiaojukeji.com/" target="_blank" class="xsj_link xsj_manu_link">滴滴</a> - 滴滴提供了iOS和Android SDK, 可实现拉起滴滴叫车等方面的操作。</li>
+<li><a href="http://developer.10101111.com/" target="_blank" class="xsj_link xsj_manu_link">神州专车</a> - 神州专车提供了API模式和H5模式两种接入模式，允许进行基础信息，订单，支付，充值，用户，发票，代金券，企业等方面的操作。</li>
+<li><a href="https://developer.uber.com/" target="_blank" class="xsj_link xsj_manu_link">Uber</a> - Uber提供了Android和iOS的SDK,允许进行乘客，行程体验，司机，派送次数等四大方面的操作。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e8af8de585b8_3"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e8af8de585b8_3" class="blank_anchor_name"></a><a id="e8af8de585b8_3" class="blank_anchor_id"></a><a name="词典" class="blank_anchor_name"></a><a id="词典" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">词典</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://api.fanyi.baidu.com/api/trans/product/index" target="_blank" class="xsj_link xsj_manu_link">百度翻译</a> - 百度翻译支持多种语言互相翻译，包含PHP, JS, Python, C, Java版Demo。</li>
+<li><a href="https://www.microsoft.com/en-us/translator/translatorapi.aspx" target="_blank" class="xsj_link xsj_manu_link">必应词典</a> - 微软翻译API支持文字和语音两种类型，支持多种语言互相翻译，提供C#版本Demo。</li>
+<li><a href="http://open.iciba.com/?c=api" target="_blank" class="xsj_link xsj_manu_link">金山词霸</a> - 金山词霸允许进行简单的翻译操作。</li>
+<li><a href="https://www.shanbay.com/help/developer/api_v1/" target="_blank" class="xsj_link xsj_manu_link">扇贝</a> - 扇贝提供了完整的API，允许进行用户，查询，添加学习记录，忘记单词，例句，笔记等方面的操作。</li>
+<li><a href="http://fanyi.youdao.com/openapi" target="_blank" class="xsj_link xsj_manu_link">有道词典</a> - 有道词典允许进行简单的翻译操作。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e794b5e59586_4"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e794b5e59586_4" class="blank_anchor_name"></a><a id="e794b5e59586_4" class="blank_anchor_id"></a><a name="电商" class="blank_anchor_name"></a><a id="电商" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">电商</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://open.dangdang.com/" target="_blank" class="xsj_link xsj_manu_link">当当</a> - 当当允许商家用户和网站接入授权，可进行商品，订单，图片，问答，店铺和促销等方面的操作。</li>
+<li><a href="https://jos.jd.com/api/index.htm" target="_blank" class="xsj_link xsj_manu_link">京东</a> - 京东提供了Java, PHP, .net的SDK，授权后可进行多种操作。</li>
+<li><a href="http://open.suning.com/ospos/apipage/toApiListMenu.do" target="_blank" class="xsj_link xsj_manu_link">苏宁开放服务</a> - 苏宁提供了Java, PHP, .Net, Python版本的SDK，授权后可进行多种操作。</li>
+<li><a href="https://open.taobao.com/doc2/api_list.htm" target="_blank" class="xsj_link xsj_manu_link">淘宝开放平台</a> - 淘宝提供了Java, .Net, PHP, Python版本的SDK，授权后提供多种操作。</li>
+<li><a href="https://developer.amazon.com/public/zh" target="_blank" class="xsj_link xsj_manu_link">亚马逊</a> - 亚马逊提供多种语言版本的SDK，授权后允许多种操作。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e59cb0e59bbe_5"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e59cb0e59bbe_5" class="blank_anchor_name"></a><a id="e59cb0e59bbe_5" class="blank_anchor_id"></a><a name="地图" class="blank_anchor_name"></a><a id="地图" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">地图</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://lbsyun.baidu.com/" target="_blank" class="xsj_link xsj_manu_link">百度地图</a> - 百度地图提供了Android, iOS版本的SDK和JavaScript API，可进行定位、地图、数据、出行、鹰眼轨迹和分析服务。</li>
+<li><a href="http://lbs.amap.com/" target="_blank" class="xsj_link xsj_manu_link">高德地图</a> - 高德地图提供了JavaScript和web服务API，Android和iOS SDK，支持地图，定位，搜索，路线规划，导航和室内地图等。</li>
+<li><a href="http://lbs.qq.com/" target="_blank" class="xsj_link xsj_manu_link">腾讯地图</a> - 腾讯地图提供了JavaScript API，Android和iOS SDK，支持定位，地图，地点搜索，路线和导航等。</li>
+<li><a href="http://lbs.tianditu.com/api-new/home.html" target="_blank" class="xsj_link xsj_manu_link">天地图</a> - 天地图提供了H5 API和JavaScript API等web API，同时提供了Android和iOS SDK，支持基础地图服务，图层管理，地图覆盖物，地图工具，地名搜索和出行规划服务。</li>
+<li><a href="http://open.mapbar.com/" target="_blank" class="xsj_link xsj_manu_link">图吧地图</a> - 图吧提供了JavaScript和Flash API，Android和iOS SDK，支持定位，地址解析，位置标注，位置截图，路线规划，周边查询，兴趣点搜索和在线导航。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e794b5e5bdb1_6"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e794b5e5bdb1_6" class="blank_anchor_name"></a><a id="e794b5e5bdb1_6" class="blank_anchor_id"></a><a name="电影" class="blank_anchor_name"></a><a id="电影" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">电影</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://developers.douban.com/wiki/?title=movie_v2" target="_blank" class="xsj_link xsj_manu_link">豆瓣电影</a> - 豆瓣电影支持电影条目，影人条目，搜索和榜单等。</li>
+<li><a href="http://www.jianshu.com/p/9855610eb1d4" target="_blank" class="xsj_link xsj_manu_link">猫眼电影(非官方)</a> - 支持查询首页电影列表，电影详情(含评论)，本地影院和影院详情，选座。 #非官方</li>
+<li><a href="https://github.com/avenwu/vplus/blob/master/doc/v%E7%94%B5%E5%BD%B1api%E6%8E%A5%E5%8F%A3.md" target="_blank" class="xsj_link xsj_manu_link">V电影(非官方)</a> - 支持获取</li>
+<li><a href="https://github.com/jokermonn/-Api/blob/master/Time.md" target="_blank" class="xsj_link xsj_manu_link">Time时光(非官方)</a> - 支持获取</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e58db3e697b6e9809ae8aeaf_7"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e58db3e697b6e9809ae8aeaf_7" class="blank_anchor_name"></a><a id="e58db3e697b6e9809ae8aeaf_7" class="blank_anchor_id"></a><a name="即时通讯" class="blank_anchor_name"></a><a id="即时通讯" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">即时通讯</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://www.easemob.com/" target="_blank" class="xsj_link xsj_manu_link">环信</a> - 支持Android, iOS, WebIM, Linux, REST集成，支持多种消息类型。</li>
+<li><a href="http://rongcloud.cn/" target="_blank" class="xsj_link xsj_manu_link">融云</a> - 支持Android, iOS, Web, 游戏集成，支持多种消息类型。</li>
+<li><a href="http://netease.im/" target="_blank" class="xsj_link xsj_manu_link">网易云信</a> - 支持IM实时通讯，实时音视频，教学白班，专线电话，短信，聊天室，提供iOS, Android, Windows和Web SDK。</li>
+<li><a href="https://www.qcloud.com/product/im" target="_blank" class="xsj_link xsj_manu_link">腾讯云通信IM</a> - 提供iOS, Android, Windows和Web SDK，支持多种消息类型。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e5bc80e58f91e88085e7bd91e7ab99_8"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5bc80e58f91e88085e7bd91e7ab99_8" class="blank_anchor_name"></a><a id="e5bc80e58f91e88085e7bd91e7ab99_8" class="blank_anchor_id"></a><a name="开发者网站" class="blank_anchor_name"></a><a id="开发者网站" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">开发者网站</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://open.coding.net/" target="_blank" class="xsj_link xsj_manu_link">Coding</a> - 授权后可访问coding.net网站的内容。</li>
+<li><a href="http://gank.io/api" target="_blank" class="xsj_link xsj_manu_link">干货集中营</a> - 提供妹子图和Android, iOS, 前端，拓展资源等内容。</li>
+<li><a href="https://www.diycode.cc/api" target="_blank" class="xsj_link xsj_manu_link">DiyCode</a> - 授权后可访问diycode网站的内容。</li>
+<li><a href="http://www.oschina.net/openapi" target="_blank" class="xsj_link xsj_manu_link">开源中国</a> - 授权后可访问开源中国网站的内容。</li>
+<li><a href="https://laravel-china.org/topics/3097" target="_blank" class="xsj_link xsj_manu_link">Laravel China</a> - 授权后可访问 Laravel China 网站的内容。</li>
+<li><a href="https://yuque.com/ruby-china/api/getting-started" target="_blank" class="xsj_link xsj_manu_link">Ruby China</a> - 授权后可访问Ruby China网站的内容。</li>
+<li><a href="https://www.v2ex.com/p/7v9TEc53" target="_blank" class="xsj_link xsj_manu_link">V2EX</a> - 可访问V2EX网站的内容。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e5bfabe98092e69fa5e8afa2_9"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5bfabe98092e69fa5e8afa2_9" class="blank_anchor_name"></a><a id="e5bfabe98092e69fa5e8afa2_9" class="blank_anchor_id"></a><a name="快递查询" class="blank_anchor_name"></a><a id="快递查询" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">快递查询</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://www.aikuaidi.cn/api/" target="_blank" class="xsj_link xsj_manu_link">爱快递</a> - 爱快递支持国内90多家快递物流订单查询服务，免费版有使用次数限制，可用于电子商城单号跟踪,手机应用,微信快递接口等服务。</li>
+<li><a href="http://www.kuaidi100.com/openapi/" target="_blank" class="xsj_link xsj_manu_link">快递100</a> - 快递100支持300家国内国际快递，免费版有使用次数限制。</li>
+<li><a href="http://www.kdniao.com/" target="_blank" class="xsj_link xsj_manu_link">快递鸟</a> - 快递鸟支持国内外400多家快递公司，免费版有使用次数限制，<a href="http://xn--uirq0a.Net" class="xsj_link xsj_auto_link">包含.Net</a>, PHP, Java版Demo。</li>
+<li><a href="http://www.kuaidi.com/openapi.html" target="_blank" class="xsj_link xsj_manu_link">快递网</a> - 快递网支持上百家快递查询服务，免费版有使用次数限制。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e69785e6b8b8_10"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e69785e6b8b8_10" class="blank_anchor_name"></a><a id="e69785e6b8b8_10" class="blank_anchor_id"></a><a name="旅游" class="blank_anchor_name"></a><a id="旅游" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">旅游</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://open.qunar.com/" target="_blank" class="xsj_link xsj_manu_link">去哪儿</a> - 支持获取去哪儿网的内容。</li>
+<li><a href="http://open.tuniu.cn/" target="_blank" class="xsj_link xsj_manu_link">途牛</a> - 支持途牛网的内容，仅开放给供应商系统。</li>
+<li><a href="http://u.ctrip.com/union/help/Termsofuse.aspx" target="_blank" class="xsj_link xsj_manu_link">携程</a> - 支持携程网的内容。</li>
+<li><a href="http://open.elong.com/home/index" target="_blank" class="xsj_link xsj_manu_link">艺龙</a> - 支持获取产品数据，完成用户的预订，进行订单查询、更改或取消。提供在线工具，以及H5, Java, C#, PHP, Ruby版本的Demo。</li>
+<li><a href="https://github.com/jokermonn/-Api/blob/master/12306.md" target="_blank" class="xsj_link xsj_manu_link">12306(非官方)</a> - 支持获取12306火车票票数、票价查询。 #非官方</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e7a4bee4baa4_11"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e7a4bee4baa4_11" class="blank_anchor_name"></a><a id="e7a4bee4baa4_11" class="blank_anchor_id"></a><a name="社交" class="blank_anchor_name"></a><a id="社交" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">社交</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://open-doc.dingtalk.com/" target="_blank" class="xsj_link xsj_manu_link">钉钉</a> - 支持免登，企业通讯录，服务窗，钉盘，地图，会话，DING，电话，音频，扫码，支付，分享等服务，提供SDK和Demo，PC版UI规范，调试工具和钉钉UI组件库。</li>
+<li><a href="https://developers.douban.com/wiki/?title=guide" target="_blank" class="xsj_link xsj_manu_link">豆瓣</a> - 支持图书，电影，音乐，同城，广播，用户，日记，相册，线上活动，论坛，回复和我去等功能，提供豆瓣组件，豆瓣标示和Demo。</li>
+<li><a href="http://open.kaixin001.com/document.php" target="_blank" class="xsj_link xsj_manu_link">开心网</a> - 支持用户信息，登录授权，好友，传播应用，支付，分享内容，消息，交互，开心网应用等内容，提供SDK，开源插件和标示素材。</li>
+<li><a href="http://wiki.connect.qq.com/api%E5%88%97%E8%A1%A8" target="_blank" class="xsj_link xsj_manu_link">QQ互联</a> - 支持用户资料，QQ会员信息，空间相册，腾讯微博资料，分享到腾讯微博，微博好友信息，财付通信息等内容，提供SDK, Demo, 以及设计资源。</li>
+<li><a href="http://open.weibo.com/wiki/API" target="_blank" class="xsj_link xsj_manu_link">微博</a> - 支持粉丝服务，微博，评论，用户，关系，账号，收藏，搜索，提醒，短链，公共服务，位置服务，地理信息，地图引擎，支付以及OAuth2.0授权等内容，提供微博标示及SDK。</li>
+<li><a href="https://open.weixin.qq.com/" target="_blank" class="xsj_link xsj_manu_link">微信</a> - 支持移动应用，网站应用，公众账号，公众号第三方平台等内容，提供SDK, Demo, 以及设计资源。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e8a786e9a291_12"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e8a786e9a291_12" class="blank_anchor_name"></a><a id="e8a786e9a291_12" class="blank_anchor_id"></a><a name="视频" class="blank_anchor_name"></a><a id="视频" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">视频</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://open.iqiyi.com/" target="_blank" class="xsj_link xsj_manu_link">爱奇艺</a> - 支持弹幕，全色彩播放器，高清码流，视频托管，播放爱奇艺视频，应用分发，IOCP等内容。</li>
+<li><a href="https://github.com/fython/BilibiliAPIDocs" target="_blank" class="xsj_link xsj_manu_link">Bilibili(非官方)</a> - 支持登录，我的信息，番剧专题，视频/专题收藏、关注，番剧，弹幕等。 #非官方</li>
+<li><a href="http://www.lecloud.com/zh-cn/help/api.html" target="_blank" class="xsj_link xsj_manu_link">乐视</a> - 支持标准直播，标准点播，视频发行平台，移动直播等内容，提供SDK下载。</li>
+<li><a href="http://lm.tv.sohu.com/union/open_platform.do" target="_blank" class="xsj_link xsj_manu_link">搜狐视频</a> - 支持一二级内容获取，内容分类获取，视频详情信息，专辑详情信息，分级列表获取，关键词搜索等内容。</li>
+<li><a href="http://api.tudou.com/" target="_blank" class="xsj_link xsj_manu_link">土豆</a> - 支持视频模块，豆单模块，影视库模块，用户模块，转帖模块，字段定义模块等内容。</li>
+<li><a href="http://doc.open.youku.com/?spm=0.0.0.0.fOn6ND" target="_blank" class="xsj_link xsj_manu_link">优酷</a> - 支持内容输出，视频搜索，智能推荐，用户登录，用户互动，用户信息，视频上传至优酷，视频互动等内容，提供SDK。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e5a4a9e6b094_13"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5a4a9e6b094_13" class="blank_anchor_name"></a><a id="e5a4a9e6b094_13" class="blank_anchor_id"></a><a name="天气" class="blank_anchor_name"></a><a id="天气" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">天气</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://wiki.swarma.net/index.php/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94API/v2" target="_blank" class="xsj_link xsj_manu_link">彩云天气</a> - 支持全球天气数据，两种空气质量数据，天气预报，实况天气，独家降水预报，独家空气质量预报，六种天气数据，四种生活指数数据等内容，部分功能收费。</li>
+<li><a href="http://www.kancloud.cn/hefengyun/weather/222344" target="_blank" class="xsj_link xsj_manu_link">和风天气</a> - 支持7-10天预报，实况天气，每小时预报，生活指数，灾害预警，景点天气，历史天气，城市查询等内容，仅国内数据免费。</li>
+<li><a href="https://www.seniverse.com/api" target="_blank" class="xsj_link xsj_manu_link">心知天气</a> - 支持天气实况，逐日预报和历史，24小时逐小时预报，过去24小时天气历史记录，气象灾害预警，空气质量实况与城市排行，逐日和逐小时空气质量预报，过去24小时空气质量历史记录，生活指数，农历、节气、生肖，机动车尾号限行，日出日落，月初月落和月像，城市搜索等内容，仅国内数据免费。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e59ba2e9989fe58d8fe4bd9c_14"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e59ba2e9989fe58d8fe4bd9c_14" class="blank_anchor_name"></a><a id="e59ba2e9989fe58d8fe4bd9c_14" class="blank_anchor_id"></a><a name="团队协作" class="blank_anchor_name"></a><a id="团队协作" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">团队协作</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://www.teambition.com/developer/open-platform" target="_blank" class="xsj_link xsj_manu_link">Teambition</a> - 支持详细的文档说明，部分平台提供demo。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e59bbee78987e4b88ee59bbee5838fe5a484e79086_15"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e59bbee78987e4b88ee59bbee5838fe5a484e79086_15" class="blank_anchor_name"></a><a id="e59bbee78987e4b88ee59bbee5838fe5a484e79086_15" class="blank_anchor_id"></a><a name="图片与图像处理" class="blank_anchor_name"></a><a id="图片与图像处理" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">图片与图像处理</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://www.v2ex.com/t/157267" target="_blank" class="xsj_link xsj_manu_link">Bing每日壁纸(非官方)</a> - 支持图片URL和图片描述，可获取不同地区的数据。 #非官方</li>
+<li><a href="https://github.com/pinguo/PGSkinPrettifyEngine" target="_blank" class="xsj_link xsj_manu_link">Camera360</a> - 支持全帧率直播美白滤镜，提供SDK和Demo。</li>
+<li><a href="http://imgsdk.com/" target="_blank" class="xsj_link xsj_manu_link">嗨图</a> - 支持图片标注，仅提供iOS版本SDK。</li>
+<li><a href="https://dev.camcard.com/?language=zh-cn" target="_blank" class="xsj_link xsj_manu_link">名片全能王</a> - 支持精准识别几十种语言的名片，自动切边并美化名片图像，自动返回识别结果，提供多种版本SDK，收费。</li>
+<li><a href="http://www.intsig.com/zh/products/camcard_for_id" target="_blank" class="xsj_link xsj_manu_link">企业证件识别</a> - 支持身份证，驾驶证，护照等，收费。</li>
+<li><a href="https://dev.camscanner.com/?language=zh-cn" target="_blank" class="xsj_link xsj_manu_link">扫描全能王</a> - 支持图像智能剪裁，五种图像增强模式，手动调节图像细节，自动返回扫描结果等，提供iOS与Android版本SDK，收费。</li>
+<li><a href="http://api1.wozhitu.com/" target="_blank" class="xsj_link xsj_manu_link">我知图</a> - 支持相似图像搜索，图像识别匹配，图像识别关键词推荐，重复图片探测等内容。</li>
+<li><a href="http://www.intsig.com/zh/products/creditcard" target="_blank" class="xsj_link xsj_manu_link">银行卡|信用卡识别</a> - 提供SDK和API，收费。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e5a496e58d96_16"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5a496e58d96_16" class="blank_anchor_name"></a><a id="e5a496e58d96_16" class="blank_anchor_id"></a><a name="外卖" class="blank_anchor_name"></a><a id="外卖" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">外卖</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://dev.waimai.baidu.com/" target="_blank" class="xsj_link xsj_manu_link">百度外卖</a> - 支持商户，菜品，商品，订单和基础数据等内容，提供SDK和Demo。</li>
+<li><a href="http://developer.dianping.com/" target="_blank" class="xsj_link xsj_manu_link">大众点评</a> - 支持商户，团购，在线预定，商品点评，数据统计，元数据等内容。</li>
+<li><a href="http://openapi.eleme.io/v2/quickstart.html" target="_blank" class="xsj_link xsj_manu_link">饿了么</a> - 支持查询，预定，订单，其他订单，数据推送，支付，评价，活动，账户同步，数据落地同步等内容。</li>
+<li><a href="http://developer.waimai.meituan.com/doc/show" target="_blank" class="xsj_link xsj_manu_link">美团外卖</a> - 支持门店，配送范围，菜品，药品，订单，订单推送等内容。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e6b688e681afe68ea8e98081_17"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e6b688e681afe68ea8e98081_17" class="blank_anchor_name"></a><a id="e6b688e681afe68ea8e98081_17" class="blank_anchor_id"></a><a name="消息推送" class="blank_anchor_name"></a><a id="消息推送" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">消息推送</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://push.baidu.com/doc/restapi/restapi" target="_blank" class="xsj_link xsj_manu_link">百度云推送</a> - 支持iOS, Android和服务器端，支持推送，统计，组管理等Rest API接口。服务器端支持Java, Python, PHP, REST API。提供所支持各语言版本的SDK。</li>
+<li><a href="http://developer.huawei.com/push" target="_blank" class="xsj_link xsj_manu_link">华为推送</a> - 支持Android，提供SDK。</li>
+<li><a href="https://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/" target="_blank" class="xsj_link xsj_manu_link">极光</a> - 支持Android, iOS, WindowsPhone, 服务器端REST API, 提供Java, Python, PHP, Ruby, C#, Node.js等版本的SDK。</li>
+<li><a href="https://leancloud.cn/docs/push_guide.html" target="_blank" class="xsj_link xsj_manu_link">LeanCloud</a> - 支持Android, iOS, WindowsPhone和Web网页推送，使用云引擎和JavaScript创建推送，使用REST API推送消息。提供Objectvie-C(开放源码), JavaScript(开放源码), Android, Unity, .Net, WindowsPhone, Java(开放源码), Python(开放源码), PHP(开放源码), C++(开放源码), Swift(开放源码)版本SDK。同时提供Demo。</li>
+<li><a href="http://xg.qq.com/" target="_blank" class="xsj_link xsj_manu_link">腾讯信鸽</a> - 支持iOS和Android平台，服务器端采用Rest API, 同时服务器端支持Java, PHP, Python等语言并提供SDK。</li>
+<li><a href="http://dev.xiaomi.com/console/appservice/push.html" target="_blank" class="xsj_link xsj_manu_link">小米</a> - 支持Android和iOS平台，服务器端支持Java, Python并提供SDK。</li>
+<li><a href="http://dev.umeng.com/push/android/api-doc" target="_blank" class="xsj_link xsj_manu_link">友盟</a> - 支持Android和iOS平台，服务器端支持PHP, Java, Python并提供SDK。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e99fb3e4b990_18"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e99fb3e4b990_18" class="blank_anchor_name"></a><a id="e99fb3e4b990_18" class="blank_anchor_id"></a><a name="音乐" class="blank_anchor_name"></a><a id="音乐" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">音乐</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://my.oschina.net/skiden/blog/102025" target="_blank" class="xsj_link xsj_manu_link">百度音乐(非官方)</a> - 支持频道歌曲列表，专辑的歌曲列表，歌曲的详细信息，歌手专辑信息，搜索，歌手的所有歌曲，排行榜，所有专辑，所有歌手，歌手的专辑列表，歌手信息，歌词搜索，歌曲文件详细信息。 #非官方</li>
+<li><a href="https://developers.douban.com/wiki/?title=music_v2" target="_blank" class="xsj_link xsj_manu_link">豆瓣音乐</a> - 支持音乐信息，评论信息，标签信息，搜索音乐，某个音乐中标记最多的标签，发表、修改、删除评论，用户对音乐的所有标签等内容。</li>
+<li><a href="https://github.com/kaolafm/api" target="_blank" class="xsj_link xsj_manu_link">考拉FM</a> - 支持获取指定分类下列表和内容，搜索指定关键字内容，专辑/电台/直播详情，指定专辑下列表，指定电台播单，分类下专辑TOP50，指定期(碎片)所在专辑最新分页功能，分类下全部直播计划，版本升级接口，排行榜，精选，传统电台列表/详情/地区等。</li>
+<li><a href="http://wq.qq.com/" target="_blank" class="xsj_link xsj_manu_link">企鹅FM</a> - 支持获取电台分类列表，电台分类下的专辑信息列表，专辑下节目信息列表，电台节目播放链接，搜索关键字相关主播/专辑/节目，主播名下专辑，特定时间段内新增主播/更新的专辑/新增的专辑等。</li>
+<li><a href="https://github.com/ccchangkong/article/issues/23" target="_blank" class="xsj_link xsj_manu_link">QQ音乐(非官方)</a> - 支持歌曲榜单，歌曲/歌词地址，歌曲图片。 #非官方</li>
+<li><a href="http://open.qingting.fm/" target="_blank" class="xsj_link xsj_manu_link">蜻蜓FM</a> - 支持OAuth2.0授权，音频数据中心，分类，点播，直播，临时直播，排行榜，搜索，内容更新状态，主播，此刻，专题，活动等内容。</li>
+<li><a href="https://github.com/darknessomi/musicbox/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%96%B0%E7%89%88WebAPI%E5%88%86%E6%9E%90%E3%80%82" target="_blank" class="xsj_link xsj_manu_link">网易云音乐(非官方)</a> - 支持获取用户歌单，歌单详情，歌曲URL。 #非官方</li>
+<li><a href="http://open.ximalaya.com/index" target="_blank" class="xsj_link xsj_manu_link">喜马拉雅FM</a> - 支持Android和iOS平台，并提供相应的SDK和Demo，具体支持内容请下载相关文件查看。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e4ba91_19"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e4ba91_19" class="blank_anchor_name"></a><a id="e4ba91_19" class="blank_anchor_id"></a><a name="云" class="blank_anchor_name"></a><a id="云" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">云</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://develop.aliyun.com/api?spm=5176.8142029.388261.274.4FJSwV" target="_blank" class="xsj_link xsj_manu_link">阿里云</a> - 支持弹性计算，数据库，存储与CDN，网络，应用服务，域名与网站等类别的内容，并提供了相关SDK。</li>
+<li><a href="https://cloud.baidu.com/doc/index.html" target="_blank" class="xsj_link xsj_manu_link">百度云</a> - 支持计算和网络，存储和CDN，数据库，安全和管理，数据分析，智能多媒体服务，物联网服务，人工智能，应用服务，网站服务，数字营销服务等内容，并提供相关的SDK。</li>
+<li><a href="http://www.bmob.cn/" target="_blank" class="xsj_link xsj_manu_link">Bmob</a> - 支持云数据库，容器服务，消息推送，文件存储，短信验证码，及时通讯，云端逻辑，定时任务，地理位置等。</li>
+<li><a href="https://leancloud.cn/" target="_blank" class="xsj_link xsj_manu_link">LeanCloud</a> -     支持云存储，数据分析，用户关系，实时通讯，消息推送，移动统计等。</li>
+<li><a href="http://www.qiniu.com/" target="_blank" class="xsj_link xsj_manu_link">七牛云</a> - 支持对象存储，融合CDN，直播云，数据处理等。</li>
+<li><a href="https://www.qcloud.com/doc/api" target="_blank" class="xsj_link xsj_manu_link">腾讯云</a> - 支持计算，网络，存储与CDN，数据库，安全服务，监控与管理，域名服务，视频服务，大数据与AI等内容，提供相关SDK。</li>
+<li><a href="https://www.upyun.com/" target="_blank" class="xsj_link xsj_manu_link">又拍云</a> - 支持 CDN、云存储、直播云、点播云、SSL证书服务、云处理、流量营销等。</li>
+<li><a href="https://www.wilddog.com/" target="_blank" class="xsj_link xsj_manu_link">野狗</a> - 支持实时数据同步，实时视频通话，及时通讯，短信，身份认证等。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e8afade99fb3e8af86e588ab_20"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e8afade99fb3e8af86e588ab_20" class="blank_anchor_name"></a><a id="e8afade99fb3e8af86e588ab_20" class="blank_anchor_id"></a><a name="语音识别" class="blank_anchor_name"></a><a id="语音识别" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">语音识别</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://yuyin.baidu.com/" target="_blank" class="xsj_link xsj_manu_link">百度语音</a> - 支持全平台REST API, 离线在线融合模式，深度语义解析，场景识别定制，自定义上传语料、训练模型，基础服务永久免费。提供相应SDK和Demo应用。</li>
+<li><a href="http://openspeech.sogou.com/Sogou/php/index.php" target="_blank" class="xsj_link xsj_manu_link">搜狗语音云开放平台</a> - 支持在线/离线语音识别，在线听歌识曲，离线语音合成等内容。提供相应平台SDK。</li>
+<li><a href="http://www.xfyun.cn/" target="_blank" class="xsj_link xsj_manu_link">讯飞开放平台</a> - 支持语音听写/转写，在线/离线命令词识别，语音唤醒等内容，平台支持广泛，提供相应SDK。</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e69d82e5bf97_21"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e69d82e5bf97_21" class="blank_anchor_name"></a><a id="e69d82e5bf97_21" class="blank_anchor_id"></a><a name="杂志" class="blank_anchor_name"></a><a id="杂志" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">杂志</span></h4>
+<ul class="markdown_ul">
+<li><a href="https://github.com/ZongweiBai/DoubanOpenDaily/blob/b87473b90911e687d291e847b133b5c4c4a700a3/app/src/main/java/com/monosky/daily/constant/APIConstData.java" target="_blank" class="xsj_link xsj_manu_link">豆瓣一刻(非官方)</a> - 支持获取指定日期文章列表，栏目总览，推荐作者，作者信息，作者更多文章信息，栏目文章列表及翻页，文章评论及热门评论列表。 #非官方</li>
+<li><a href="https://github.com/jokermonn/-Api/blob/master/ONEv3.5.0~.md" target="_blank" class="xsj_link xsj_manu_link">One一个(非官方)</a> - 支持获取首页图片，文章，音乐及电影。 #非官方</li>
+<li><a href="https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90" target="_blank" class="xsj_link xsj_manu_link">知乎日报(非官方)</a> - 支持获取界面启动图像，软件版本查询，最新消息，消息内容获取与离线下载，过往消息，新闻额外消息，新闻对应长/短评论查看，主题日报列表，主题日报内容，热门消息，栏目总览，栏目具体消息，新闻的推荐者，某个专栏之前的新闻，Editor的主页等。 #非官方</li>
+<li><a href="https://github.com/marktony/zhuanlan/wiki" target="_blank" class="xsj_link xsj_manu_link">知乎专栏(非官方)</a> - 支持获取指定专栏的信息，指定专栏的文章列表，指定的文章内容，评论列表，点赞信息。 #非官方</li>
+</ul>
+<h4 class="xsj_heading_hash xsj_heading xsj_heading_h4" id="e7bbbce59088_22"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e7bbbce59088_22" class="blank_anchor_name"></a><a id="e7bbbce59088_22" class="blank_anchor_id"></a><a name="综合" class="blank_anchor_name"></a><a id="综合" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">综合</span></h4>
+<ul class="markdown_ul">
+<li><a href="http://www.avatardata.cn/Docs" target="_blank" class="xsj_link xsj_manu_link">阿凡达数据</a> - 支持金融股票，充值认证，便民类，新闻文章，医药交通，科教文艺，创意数据，及时通讯等内容。</li>
+<li><a href="https://dayu.aliyun.com/" target="_blank" class="xsj_link xsj_manu_link">阿里大于</a> - 支持验证码，短信通知，语音通知，流量钱包充值，私密专线，群发助手等内容。</li>
+<li><a href="https://www.apix.cn/" target="_blank" class="xsj_link xsj_manu_link">APiX</a> - 支持基础征信数据，信用分析服务，支付缴费接口等数据，部分免费。</li>
+<li><a href="http://apistore.baidu.com/" target="_blank" class="xsj_link xsj_manu_link">百度API STORE</a> - 支持多种类型数据，部分免费，提供SDK。</li>
+<li><a href="http://www.haoservice.com/" target="_blank" class="xsj_link xsj_manu_link">HaoService</a> - 支持多种类型数据。</li>
+<li><a href="https://www.juhe.cn/" target="_blank" class="xsj_link xsj_manu_link">聚合数据</a> - 支持多种类型数据，部分免费。</li>
+<li><a href="https://m.datayes.com/" target="_blank" class="xsj_link xsj_manu_link">通联数据</a> - 提供金融类数据，支持免费试用。</li>
+</ul>
+<p class="xsj_paragraph xsj_paragraph_level_0">文章出处：<a href="https://microzz.com/2017/02/03/API/" target="_blank" class="xsj_link xsj_manu_link">涵月天-microzz.com | IT技术分享</a></p>
+</div>
+
+</div></div>
+<script>
+  !function(e){function t(o){if(n[o])return n[o].exports;var l=n[o]={i:o,l:!1,exports:{}};return e[o].call(l.exports,l,l.exports,t),l.l=!0,l.exports}var n={};t.m=e,t.c=n,t.d=function(e,n,o){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:o})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=0)}([function(e,t,n){(function(o){var l,r,i;!function(n,o){r=[],l=o(n),void 0!==(i="function"==typeof l?l.apply(t,r):l)&&(e.exports=i)}(void 0!==o?o:this.window||this.global,function(e){"use strict";function t(){for(var e={},t=0;t<arguments.length;t++){var n=arguments[t];for(var o in n)m.call(n,o)&&(e[o]=n[o])}return e}function o(e,t,n){t||(t=250);var o,l;return function(){var r=n||this,i=+new Date,s=arguments;o&&i<o+t?(clearTimeout(l),l=setTimeout(function(){o=i,e.apply(r,s)},t)):(o=i,e.apply(r,s))}}var l,r,i=n(2),s={},c={},a=n(3),u=n(4);if("undefined"!=typeof window){var d,f=!!e.document.querySelector&&!!e.addEventListener,m=Object.prototype.hasOwnProperty;return c.destroy=function(){if(!s.skipRendering)try{document.querySelector(s.tocSelector).innerHTML=""}catch(e){console.warn("Element not found: "+s.tocSelector)}s.scrollContainer&&document.querySelector(s.scrollContainer)?(document.querySelector(s.scrollContainer).removeEventListener("scroll",this._scrollListener,!1),document.querySelector(s.scrollContainer).removeEventListener("resize",this._scrollListener,!1),l&&document.querySelector(s.scrollContainer).removeEventListener("click",this._clickListener,!1)):(document.removeEventListener("scroll",this._scrollListener,!1),document.removeEventListener("resize",this._scrollListener,!1),l&&document.removeEventListener("click",this._clickListener,!1))},c.init=function(e){if(f&&(s=t(i,e||{}),this.options=s,this.state={},s.scrollSmooth&&(s.duration=s.scrollSmoothDuration,s.offset=s.scrollSmoothOffset,c.scrollSmooth=n(5).initSmoothScrolling(s)),l=a(s),r=u(s),this._buildHtml=l,this._parseContent=r,c.destroy(),null!==(d=r.selectHeadings(s.contentSelector,s.headingSelector)))){var m=r.nestHeadingsArray(d),h=m.nest;s.skipRendering||l.render(s.tocSelector,h),this._scrollListener=o(function(e){l.updateToc(d);var t=e&&e.target&&e.target.scrollingElement&&0===e.target.scrollingElement.scrollTop;(e&&(0===e.eventPhase||null===e.currentTarget)||t)&&(l.updateToc(d),s.scrollEndCallback&&s.scrollEndCallback(e))},s.throttleTimeout),this._scrollListener(),s.scrollContainer&&document.querySelector(s.scrollContainer)?(document.querySelector(s.scrollContainer).addEventListener("scroll",this._scrollListener,!1),document.querySelector(s.scrollContainer).addEventListener("resize",this._scrollListener,!1)):(document.addEventListener("scroll",this._scrollListener,!1),document.addEventListener("resize",this._scrollListener,!1));var p=null;return this._clickListener=o(function(e){s.scrollSmooth&&l.disableTocAnimation(e),l.updateToc(d),p&&clearTimeout(p),p=setTimeout(function(){l.enableTocAnimation()},s.scrollSmoothDuration)},s.throttleTimeout),s.scrollContainer&&document.querySelector(s.scrollContainer)?document.querySelector(s.scrollContainer).addEventListener("click",this._clickListener,!1):document.addEventListener("click",this._clickListener,!1),this}},c.refresh=function(e){c.destroy(),c.init(e||this.options)},e.tocbot=c,c}})}).call(t,n(1))},function(e,t){var n;n=function(){return this}();try{n=n||Function("return this")()||(0,eval)("this")}catch(e){"object"==typeof window&&(n=window)}e.exports=n},function(e,t){e.exports={tocSelector:".js-toc",contentSelector:".js-toc-content",headingSelector:"h1, h2, h3",ignoreSelector:".js-toc-ignore",hasInnerContainers:!1,linkClass:"toc-link",extraLinkClasses:"",activeLinkClass:"is-active-link",listClass:"toc-list",extraListClasses:"",isCollapsedClass:"is-collapsed",collapsibleClass:"is-collapsible",listItemClass:"toc-list-item",activeListItemClass:"is-active-li",collapseDepth:0,scrollSmooth:!0,scrollSmoothDuration:420,scrollSmoothOffset:0,scrollEndCallback:function(e){},headingsOffset:1,throttleTimeout:50,positionFixedSelector:null,positionFixedClass:"is-position-fixed",fixedSidebarOffset:"auto",includeHtml:!1,onClick:!1,orderedList:!0,scrollContainer:null,skipRendering:!1}},function(e,t){e.exports=function(e){function t(e,n){var r=n.appendChild(o(e));if(e.children.length){var i=l(e.isCollapsed);e.children.forEach(function(e){t(e,i)}),r.appendChild(i)}}function n(e,n){var o=l(!1);n.forEach(function(e){t(e,o)});var r=document.querySelector(e);if(null!==r)return r.firstChild&&r.removeChild(r.firstChild),0===n.length?r:r.appendChild(o)}function o(t){var n=document.createElement("li"),o=document.createElement("a");return e.listItemClass&&n.setAttribute("class",e.listItemClass),e.onClick&&(o.onclick=e.onClick),e.includeHtml&&t.childNodes.length?d.call(t.childNodes,function(e){o.appendChild(e.cloneNode(!0))}):o.textContent=t.textContent,o.setAttribute("href","#"+t.id),o.setAttribute("class",e.linkClass+p+"node-name--"+t.nodeName+p+e.extraLinkClasses),n.appendChild(o),n}function l(t){var n=e.orderedList?"ol":"ul",o=document.createElement(n),l=e.listClass+p+e.extraListClasses;return t&&(l+=p+e.collapsibleClass,l+=p+e.isCollapsedClass),o.setAttribute("class",l),o}function r(){if(e.scrollContainer&&document.querySelector(e.scrollContainer))var t=document.querySelector(e.scrollContainer).scrollTop;else var t=document.documentElement.scrollTop||m.scrollTop;var n=document.querySelector(e.positionFixedSelector);"auto"===e.fixedSidebarOffset&&(e.fixedSidebarOffset=document.querySelector(e.tocSelector).offsetTop),t>e.fixedSidebarOffset?-1===n.className.indexOf(e.positionFixedClass)&&(n.className+=p+e.positionFixedClass):n.className=n.className.split(p+e.positionFixedClass).join("")}function i(t){var n=0;return t!=document.querySelector(e.contentSelector&&null!=t)&&(n=t.offsetTop,e.hasInnerContainers&&(n+=i(t.offsetParent))),n}function s(t){if(e.scrollContainer&&document.querySelector(e.scrollContainer))var n=document.querySelector(e.scrollContainer).scrollTop;else var n=document.documentElement.scrollTop||m.scrollTop;e.positionFixedSelector&&r();var o,l=t;if(h&&null!==document.querySelector(e.tocSelector)&&l.length>0){f.call(l,function(t,r){if(i(t)>n+e.headingsOffset+10){return o=l[0===r?r:r-1],!0}if(r===l.length-1)return o=l[l.length-1],!0});var s=document.querySelector(e.tocSelector).querySelectorAll("."+e.linkClass);d.call(s,function(t){t.className=t.className.split(p+e.activeLinkClass).join("")});var a=document.querySelector(e.tocSelector).querySelectorAll("."+e.listItemClass);d.call(a,function(t){t.className=t.className.split(p+e.activeListItemClass).join("")});var u=document.querySelector(e.tocSelector).querySelector("."+e.linkClass+".node-name--"+o.nodeName+'[href="#'+o.id+'"]');-1===u.className.indexOf(e.activeLinkClass)&&(u.className+=p+e.activeLinkClass);var C=u.parentNode;C&&-1===C.className.indexOf(e.activeListItemClass)&&(C.className+=p+e.activeListItemClass);var v=document.querySelector(e.tocSelector).querySelectorAll("."+e.listClass+"."+e.collapsibleClass);d.call(v,function(t){-1===t.className.indexOf(e.isCollapsedClass)&&(t.className+=p+e.isCollapsedClass)}),u.nextSibling&&-1!==u.nextSibling.className.indexOf(e.isCollapsedClass)&&(u.nextSibling.className=u.nextSibling.className.split(p+e.isCollapsedClass).join("")),c(u.parentNode.parentNode)}}function c(t){return-1!==t.className.indexOf(e.collapsibleClass)&&-1!==t.className.indexOf(e.isCollapsedClass)?(t.className=t.className.split(p+e.isCollapsedClass).join(""),c(t.parentNode.parentNode)):t}function a(t){var n=t.target||t.srcElement;"string"==typeof n.className&&-1!==n.className.indexOf(e.linkClass)&&(h=!1)}function u(){h=!0}var d=[].forEach,f=[].some,m=document.body,h=!0,p=" ";return{enableTocAnimation:u,disableTocAnimation:a,render:n,updateToc:s}}},function(e,t){e.exports=function(e){function t(e){return e[e.length-1]}function n(e){return+e.nodeName.split("H").join("")}function o(t){var o={id:t.id,children:[],nodeName:t.nodeName,headingLevel:n(t),textContent:t.textContent.trim()};return e.includeHtml&&(o.childNodes=t.childNodes),o}function l(l,r){for(var i=o(l),s=n(l),c=r,a=t(c),u=a?a.headingLevel:0,d=s-u;d>0;)a=t(c),a&&void 0!==a.children&&(c=a.children),d--;return s>=e.collapseDepth&&(i.isCollapsed=!0),c.push(i),c}function r(t,n){var o=n;e.ignoreSelector&&(o=n.split(",").map(function(t){return t.trim()+":not("+e.ignoreSelector+")"}));try{return document.querySelector(t).querySelectorAll(o)}catch(e){return console.warn("Element not found: "+t),null}}function i(e){return s.call(e,function(e,t){return l(o(t),e.nest),e},{nest:[]})}var s=[].reduce;return{nestHeadingsArray:i,selectHeadings:r}}},function(e,t){function n(e){function t(e){return"a"===e.tagName.toLowerCase()&&(e.hash.length>0||"#"===e.href.charAt(e.href.length-1))&&(n(e.href)===s||n(e.href)+"#"===s)}function n(e){return e.slice(0,e.lastIndexOf("#"))}function l(e){var t=document.getElementById(e.substring(1));t&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}!function(){document.documentElement.style}();var r=e.duration,i=e.offset,s=location.hash?n(location.href):location.href;!function(){function n(n){!t(n.target)||n.target.className.indexOf("no-smooth-scroll")>-1||"#"===n.target.href.charAt(n.target.href.length-2)&&"!"===n.target.href.charAt(n.target.href.length-1)||-1===n.target.className.indexOf(e.linkClass)||o(n.target.hash,{duration:r,offset:i,callback:function(){l(n.target.hash)}})}document.body.addEventListener("click",n,!1)}()}function o(e,t){function n(e){i=e-r,window.scrollTo(0,c.easing(i,s,u,d)),i<d?requestAnimationFrame(n):o()}function o(){window.scrollTo(0,s+u),"function"==typeof c.callback&&c.callback()}function l(e,t,n,o){return(e/=o/2)<1?n/2*e*e+t:(e--,-n/2*(e*(e-2)-1)+t)}var r,i,s=window.pageYOffset,c={duration:t.duration,offset:t.offset||0,callback:t.callback,easing:t.easing||l},a=document.querySelector('[id="'+decodeURI(e).split("#").join("")+'"]'),u="string"==typeof e?c.offset+(e?a&&a.getBoundingClientRect().top||0:-(document.documentElement.scrollTop||document.body.scrollTop)):e,d="function"==typeof c.duration?c.duration(u):c.duration;requestAnimationFrame(function(e){r=e,n(e)})}t.initSmoothScrolling=n}]);
+</script>
+<script>
+  var xsjRoot = document.querySelector('.xsj_root');
+  xsjRoot.classList.add('xsj_container_toc')
+tocbot.init({
+  // Where to render the table of contents.
+  tocSelector: '#nav',
+  // Where to grab the headings to build the table of contents.
+  contentSelector: '#wmd-preview',
+  // Which headings to grab inside of the contentSelector element.
+  headingSelector: '.html_preview>h1, .html_preview>h2,.html_preview>h3,.html_preview>h4,.html_preview>h5,.html_preview>h6',
+});
+var tocToggle = document.querySelector('#toc-toggle');
+var toggler = function(e) {
+    e.preventDefault();
+    var tocContainer = document.querySelector('.xsj_container_toc');
+    var icon = document.querySelector('.toc-toggle-icon');
+    var tip = document.querySelector('.toc-toggle-tip');
+    if (tocContainer.classList.contains('hide_toc')){
+        tocContainer.classList.remove('hide_toc');
+        icon.innerHTML = "←";
+        tip.innerHTML = "关闭目录";
+        
+    } else {
+        tocContainer.classList.add('hide_toc');
+        icon.innerHTML = "→";
+        tip.innerHTML = "展开目录";
+    }
+}
+tocToggle.addEventListener('click', toggler, false);
+</script>
+</body></html>
+
+
